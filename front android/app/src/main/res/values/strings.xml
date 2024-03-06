@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Sudden Alert</string>
+    <string name="login">Login</string>
+    <string name="scan">Scan</string>
+    <string name="title_activity_main2">Sudden Alert</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Sudden Alert</string>
+    <string name="nav_header_subtitle">suddenalert@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Definições</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_horarios">Horário</string>
+    <string name="menu_doc">Documentos</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="home_second">Home Second</string>
+</resources>

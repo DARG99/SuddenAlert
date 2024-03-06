@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="170dp"
+    android:background="#FFFFFF"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="341dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="106dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:srcCompat="@mipmap/preso1" />
+
+        <LinearLayout
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Nome do recluso:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nomeRecluso"
+                android:layout_width="151dp"
+                android:layout_height="wrap_content"
+                android:text="João" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nível de gravidade:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/severity"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:text="Nível de gravidade" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descrição:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/descricao"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Descrição" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="35dp"
+            android:layout_height="124dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="438dp"
+            tools:layout_editor_absoluteY="-2dp">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="26dp"
+                android:layout_height="58dp"
+                android:layout_gravity="center"
+
+                app:srcCompat="@mipmap/ic_aceitar" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:layout_gravity="center"
+
+                app:srcCompat="@mipmap/ic_delete" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

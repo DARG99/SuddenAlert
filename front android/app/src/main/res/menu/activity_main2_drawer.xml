@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_foreground"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_hor"
+            android:icon="@drawable/horarios_foreground"
+            android:title="@string/menu_horarios" />
+        <item
+            android:id="@+id/nav_doc"
+            android:icon="@drawable/documentos_foreground"
+            android:title="@string/menu_doc" />
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/perfil_foreground"
+            android:title="@string/menu_perfil" />
+    </group>
+</menu>

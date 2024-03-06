@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.example.dai2">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/principal"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ajuda"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fazer_documentos"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fazer_documento_psi"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tabela_horario"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ver_horario"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="@string/title_inicio_diretor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".inicio_diretor"
+            android:label="@string/title_inicio_diretor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tabela_reclusos"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Registar_Reclusos"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tabela_psicologo"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tabela_guarda"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".documentos_diretor"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".historico"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".perfil_diretor"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Adicionar_horario"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".perfil_guarda"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".inicio_guarda"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".documentos_guarda"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tabela_meus_alertas"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tabela_gua_reclusos"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Alerta_guarda"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".horario_guarda"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tabela_psi_reclusos"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".inicio_psicologo"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".perfil_psicologo"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".horario_psicologo"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".documentos_psicologo"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+        android:name=".tabela_alert"
+        android:label="@string/title_inicio_guarda"
+        android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tabela_horario_psi"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ver_horario_psi"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Alterar_horario"
+            android:label="@string/title_inicio_guarda"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

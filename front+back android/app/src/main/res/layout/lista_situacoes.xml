@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="170dp"
+    android:background="#FFFFFF"
+    android:padding="5dp"
+    android:layout_gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="341dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@mipmap/preso1" />
+
+        <LinearLayout
+            android:layout_width="203dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Nome do recluso:"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/nomeReclusoS"
+                    android:layout_width="87dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Número:"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/numeroReclusoS"
+                    android:layout_width="151dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nível de gravidade:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/severityS"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descrição:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/descricaoS"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="109dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteY="25dp">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="27dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:onClick="aceitar"
+                app:srcCompat="@mipmap/ic_aceitar" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="32dp"
+                android:onClick="eliminar"
+                android:layout_height="43dp"
+                android:layout_gravity="center"
+                app:srcCompat="@mipmap/ic_delete" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

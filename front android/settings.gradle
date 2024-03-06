@@ -1,0 +1,2 @@
+rootProject.name='Dai 2'
+include ':app'

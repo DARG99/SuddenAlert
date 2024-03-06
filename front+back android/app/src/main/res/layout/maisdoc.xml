@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="600dp"
+    android:layout_gravity="center"
+    android:background="@color/cinza_background"
+    android:backgroundTint="@color/colorAccent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/txtclose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:background="@drawable/cerclebackground"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.981"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="550dp"
+        android:layout_marginStart="5dp"
+        android:backgroundTint="@color/colorwhite"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtclose">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nomeRelato"
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="#FF0000"
+                android:backgroundTint="#EFEDED"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Nome do relatório"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/dataRelato"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:backgroundTint="@color/colorwhite"
+                android:text="Data"
+                android:textAlignment="viewEnd"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_weight="1"
+                android:background="@color/colorwhite"
+                android:backgroundTint="#EFEDED"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Nome da entidade:"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/nomeEntidR"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:backgroundTint="@color/colorwhite"
+                android:text="nome da entidade"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:backgroundTint="#EFEDED"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Email da entidade:"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/emailEntidR"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:backgroundTint="@color/colorwhite"
+                android:text="email da entidade"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:backgroundTint="#EFEDED"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Gravidade:"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/gravidadeRel"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:backgroundTint="@color/colorwhite"
+                android:text="gravidade"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:backgroundTint="#EFEDED"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Relato:"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/relatoRelat"
+                android:layout_width="match_parent"
+                android:layout_height="81dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:backgroundTint="@color/colorwhite"
+                android:text="relato"
+android:gravity="center"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
